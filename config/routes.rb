@@ -55,5 +55,5 @@ Rails.application.routes.draw do
   #   end
   root 'home#index'
   get '/result' => 'home#result'
-  get '/index' =>'home#index'
+  get '/app/views/home/index.erb' =>'home#index'
 end
